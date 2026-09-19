@@ -1,0 +1,2 @@
+# GNS3 Snort IDS Laboratory Rule
+alert tcp any any -> 192.168.10.0/24 any (flags:S; msg:"LAB TCP SYN activity"; sid:1000001; rev:1;)
